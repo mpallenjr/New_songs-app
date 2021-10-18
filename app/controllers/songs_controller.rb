@@ -1,6 +1,6 @@
 class SongsController < ApplicationController
   def index
-  all_songs = Songs.all
+    all_songs = Song.all
   render json: all_songs.as_json
   end
 
