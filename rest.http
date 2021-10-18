@@ -1,0 +1,14 @@
+GET http://localhost:3000/songs.json
+###
+POST http://localhost:3000/songs.json
+content-type: application/json
+
+{
+
+  "title": "Shadows",
+  "artist": "The Midnight",
+  "album": "The Stalker",
+  "year": "2019"
+
+
+}
