@@ -15,4 +15,18 @@ content-type: application/json
 
 ###
 
-GET http://localhost:3000/songs/9.json
+GET http://localhost:3000/songs/1.json
+
+###
+PATCH http://localhost:3000/songs/9.json
+content-type: application/json
+
+{
+
+  "title": "Holiday Inn",
+  "artist": "Chingy",
+  "album": "Chingy",
+  "year": "2003"
+
+
+}
