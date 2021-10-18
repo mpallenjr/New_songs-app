@@ -5,10 +5,14 @@ content-type: application/json
 
 {
 
-  "title": "Shadows",
-  "artist": "The Midnight",
+  "title": "Free Bird",
+  "artist": "LS",
   "album": "The Stalker",
   "year": "2019"
 
 
 }
+
+###
+
+GET http://localhost:3000/songs/9.json
